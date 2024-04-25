@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+## 119. Что такое реакт, зачем он нам и почему не обычный JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* [Официальная документация](https://ru.legacy.reactjs.org/)
+* [(EN) Новая документация](https://react.dev/learn)
+* [Перевод новой документации](https://reactdev.ru/learn/)
 
-## Available Scripts
+## 120. Фундаментальные принципы Реакта
 
-In the project directory, you can run:
+* [Императивный и декларативный подходы](https://tproger.ru/translations/imperative-declarative-programming-concepts)
+* [VirtualDOM](https://habr.com/ru/articles/256965/)
 
-### `npm start`
+## 121. Create React App - создаем свое приложение
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* [Create React App](https://github.com/facebook/create-react-app)
+* [plugin-transform-react-jsx](https://babeljs.io/docs/babel-plugin-transform-react-jsx)
+* [Расширение для Chrome](https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?pli=1)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 122. Работаем с JSX-препроцессором, ограничения в нем
 
-### `npm test`
+* [Блог с той самой записью](https://legacy.reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html)
+* [Базовая документация JSX](https://ru.legacy.reactjs.org/docs/introducing-jsx.html)
+* [Список всех обновлений React](https://github.com/facebook/react/blob/main/CHANGELOG.md)
+* [(EN) Новая документация JSX](https://react.dev/learn/writing-markup-with-jsx)
+* [Перевод новой документации](https://reactdev.ru/learn/writing-markup-with-jsx/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 123. Элементы и компоненты
 
-### `npm run build`
+* [Базовая документация](https://ru.legacy.reactjs.org/docs/components-and-props.html)
+* [(EN) Новая документация](https://react.dev/learn/passing-props-to-a-component)
+* [Перевод новой документации](https://reactdev.ru/learn/your-first-component/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 124. Строгий режим
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* [Базовая документация](https://ru.legacy.reactjs.org/docs/strict-mode.html)
+* [(EN) Новая документация](https://react.dev/reference/react/StrictMode#strictmode)
+* [Перевод новой документации](https://reactdev.ru/reference/StrictMode/)
