@@ -1,6 +1,8 @@
 ## Дополнительные ресурсы
 
 * [CDNJs](https://cdnjs.com/)
+* [Дополнительная библиотека по работе с классами](https://www.npmjs.com/package/classnames)
+* [prop-types](https://www.npmjs.com/package/prop-types)
 
 ## 119. Что такое реакт, зачем он нам и почему не обычный JS
 
@@ -38,3 +40,20 @@
 * [Базовая документация](https://ru.legacy.reactjs.org/docs/strict-mode.html)
 * [(EN) Новая документация](https://react.dev/reference/react/StrictMode#strictmode)
 * [Перевод новой документации](https://reactdev.ru/reference/StrictMode/)
+
+## 127. Свойства компонентов
+
+* [Базовая документация](https://ru.legacy.reactjs.org/docs/components-and-props.html)
+* [(EN) Новая документация](https://react.dev/learn/passing-props-to-a-component)
+* [Перевод новой документации](https://reactdev.ru/learn/passing-props-to-a-component/)
+
+## 128 Практика свойств на проекте
+
+* [Дополнительная библиотека по работе с классами](https://www.npmjs.com/package/classnames)
+
+## 129 Работа со списками и алгоритм согласования
+
+* [Базовая документация](https://ru.legacy.reactjs.org/docs/reconciliation.html)
+* [Сверка и Fiber](https://habr.com/ru/articles/444276/)
+* [(EN) Новая документация](https://react.dev/learn/preserving-and-resetting-state)
+* [Перевод новой документации](https://reactdev.ru/learn/preserving-and-resetting-state/)
