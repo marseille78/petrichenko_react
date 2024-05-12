@@ -3,6 +3,10 @@
 * [CDNJs](https://cdnjs.com/)
 * [Дополнительная библиотека по работе с классами](https://www.npmjs.com/package/classnames)
 * [prop-types](https://www.npmjs.com/package/prop-types)
+* [nanoid](https://www.npmjs.com/package/nanoid)
+* [react-id-generator](https://www.npmjs.com/package/react-id-generator)
+* [uuid](https://www.npmjs.com/package/uuid)
+* [uniqueId от lodash](https://lodash.com/docs/4.17.15#uniqueId)
 
 ## 119. Что такое реакт, зачем он нам и почему не обычный JS
 
@@ -57,3 +61,43 @@
 * [Сверка и Fiber](https://habr.com/ru/articles/444276/)
 * [(EN) Новая документация](https://react.dev/learn/preserving-and-resetting-state)
 * [Перевод новой документации](https://reactdev.ru/learn/preserving-and-resetting-state/)
+
+## 130 Состояние компонентов
+
+* [Базовая документация, первая часть статьи](https://ru.legacy.reactjs.org/docs/state-and-lifecycle.html)
+* [(EN) Новая документация](https://react.dev/learn/state-a-components-memory)
+* [Перевод новой документации](https://reactdev.ru/learn/state-a-components-memory/)
+
+## 132 События в React и вспоминаем this
+
+* [Базовая документация](https://ru.legacy.reactjs.org/docs/handling-events.html)
+* [(EN) Новая документация](https://react.dev/learn/responding-to-events)
+* [Перевод новой документации](https://reactdev.ru/learn/managing-state/)
+
+## 134 Работа с формами, управляемые и неуправляемые компоненты
+
+* [Полезная статья](https://goshacmd.com/controlled-vs-uncontrolled-inputs-react/)
+* [Базовая документация](https://ru.legacy.reactjs.org/docs/forms.html)
+* [(EN) Новая документация](https://react.dev/reference/react-dom/components/input#controlling-an-input-with-a-state-variable)
+
+## 135 Иммутабельность состояния и собственные события
+
+* [Статья про иммутабельность](https://habr.com/ru/companies/developersoft/articles/302118/)
+* [findIndex](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
+* [react-id-generator](https://www.npmjs.com/package/react-id-generator)
+* [uuid](https://www.npmjs.com/package/uuid)
+* [uniqueId от lodash](https://lodash.com/docs/4.17.15#uniqueId)
+* [(EN) Новая документация](https://react.dev/learn/updating-objects-in-state)
+* [Перевод кусочка новой документации](https://reactdev.ru/archive/react16/optimizing-performance/#using-immutable-data-structures)
+
+## 136 Практика. Подъем состояния
+
+* [Способы работы с состоянием](https://stackoverflow.com/questions/43638938/updating-an-object-with-setstate-in-react/43639228#43639228)
+* [(EN) Новая документация](https://react.dev/learn/sharing-state-between-components#lifting-state-up-by-example)
+* [Перевод новой документации](https://reactdev.ru/learn/sharing-state-between-components/)
+
+## 137 React-фрагменты
+
+* [Базовая документация](https://ru.legacy.reactjs.org/docs/fragments.html)
+* [(EN) Новая документация](https://react.dev/reference/react/Fragment#fragment)
+* [Перевод новой документации](https://reactdev.ru/reference/Fragment/#_3)
