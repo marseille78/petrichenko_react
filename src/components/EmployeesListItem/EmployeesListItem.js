@@ -6,7 +6,7 @@ const EmployeesListItem = ({
   name,
   salary,
   increase = false,
-  like = false,
+  rise = false,
   id,
   onChangeProp,
   onDeleteUser
@@ -15,13 +15,13 @@ const EmployeesListItem = ({
   const cls = ['list-group-item', 'd-flex', 'justify-content-between'];
 
   increase && cls.push('increase');
-  like && cls.push('like');
+  rise && cls.push('like');
 
   return (
     <li className={cls.join(' ')}>
       <span
         className="list-group-item-label"
-        data-prop="like"
+        data-prop="rise"
         onClick={(e) => onChangeProp(id, e.currentTarget.dataset.prop)}
       >
         {name}

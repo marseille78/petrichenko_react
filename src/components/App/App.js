@@ -13,10 +13,11 @@ class App extends Component {
 
   state = {
     data: [
-      {name: 'John C.', salary: 800, increase: false, like: true, id: '0'},
-      {name: 'Alex M.', salary: 3000, increase: true, like: false, id: '1'},
-      {name: 'Carl W.', salary: 5000, increase: false, like: false, id: '2'},
-    ]
+      {name: 'John C.', salary: 800, increase: false, rise: true, id: '0'},
+      {name: 'Alex M.', salary: 3000, increase: true, rise: false, id: '1'},
+      {name: 'Carl W.', salary: 5000, increase: false, rise: false, id: '2'},
+    ],
+    search: "",
   }
 
   changeProp = (id, prop) => {
@@ -56,25 +57,39 @@ class App extends Component {
         data: [...data, newUser],
       };
     });
-  };
+  }
+
+  getVisibleList = () => {
+    const {data, search} = this.state;
+
+    return data.filter(item => {
+      return item.name.toLowerCase().search(search.trim().toLowerCase()) !== -1;
+    });
+  }
+
+  changeFilter = ({target}) => {
+    this.setState({
+      search: target.value,
+    });
+  }
 
   render() {
-    const {data} = this.state;
+    const {data, search} = this.state;
 
     return (
       <div className="app">
         <AppInfo
           employers={data.length}
-          likes={data.filter(item => item.like).length}
+          increases={data.filter(item => item.increase).length}
         />
 
         <div className="search-panel">
-          <SearchPanel/>
+          <SearchPanel search={search} onChangeFilter={this.changeFilter}/>
           <AppFilter/>
         </div>
 
         <EmployeesList
-          data={data}
+          data={this.getVisibleList()}
           onChangeProp={this.changeProp}
           onDeleteUser={this.deleteUser}
         />
