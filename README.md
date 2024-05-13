@@ -7,6 +7,7 @@
 * [react-id-generator](https://www.npmjs.com/package/react-id-generator)
 * [uuid](https://www.npmjs.com/package/uuid)
 * [uniqueId от lodash](https://lodash.com/docs/4.17.15#uniqueId)
+* [npm sass](https://www.npmjs.com/package/sass)
 
 ## 119. Что такое реакт, зачем он нам и почему не обычный JS
 
@@ -101,3 +102,35 @@
 * [Базовая документация](https://ru.legacy.reactjs.org/docs/fragments.html)
 * [(EN) Новая документация](https://react.dev/reference/react/Fragment#fragment)
 * [Перевод новой документации](https://reactdev.ru/reference/Fragment/#_3)
+
+## 139 Семантика и доступность контента
+
+* [Базовая документация](https://ru.legacy.reactjs.org/docs/accessibility.html)
+* [Крутая статья про ARIA](https://prgssr.ru/development/ispolzovanie-aria-v-html5.html)
+* [Документация ARIA](https://developer.mozilla.org/ru/docs/Web/Accessibility/ARIA)
+* [Про скринридеры](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B_%D1%87%D1%82%D0%B5%D0%BD%D0%B8%D1%8F_%D1%81_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0)
+* [Доклад про доступность](https://www.youtube.com/watch?v=KAK-WAb9vow)
+* [Доклад про семантику](https://www.youtube.com/watch?v=bDYEnNzprzE)
+
+## 141 Стили в React. CSS и SASS/SCSS
+
+* [npm sass](https://www.npmjs.com/package/sass)
+
+## 143 Стили в React. Styled Components
+
+* [styled-components.com](https://styled-components.com/)
+* [Tagged templates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#tagged_templates)
+
+## 144. Стили в React. Готовые библиотеки компонентов со стилями
+
+* [react-bootstrap](https://react-bootstrap.github.io/)
+* [reactstrap](https://reactstrap.github.io/?path=/story/home-installation--page)
+* [Material Design](https://mui.com/)
+* [CSS-modules](https://habr.com/ru/articles/335244/)
+* [ant design](https://ant.design/)
+
+## 145. Поля классов и static
+
+* [Репозиторий разработчиков](https://github.com/tc39/proposals/blob/main/finished-proposals.md)
+* [Документация](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Classes/Public_class_fields)
+* [Документация static](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Classes/static)

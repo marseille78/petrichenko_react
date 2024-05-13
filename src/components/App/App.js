@@ -18,6 +18,8 @@ class App extends Component {
       {name: 'Carl W.', salary: 5000, increase: false, rise: false, id: '2'},
     ],
     search: "",
+    // filter: "all",
+    filter: "rise",
   }
 
   changeProp = (id, prop) => {
@@ -60,21 +62,36 @@ class App extends Component {
   }
 
   getVisibleList = () => {
-    const {data, search} = this.state;
+    const {data, search, filter} = this.state;
 
-    return data.filter(item => {
-      return item.name.toLowerCase().search(search.trim().toLowerCase()) !== -1;
+    const searchList = data.filter(item => {
+      return item.name.toLowerCase().indexOf(search.trim().toLowerCase()) !== -1;
     });
+
+    switch (filter) {
+      case "rise":
+        return searchList.filter(item => item.rise);
+      case "moreThen1000":
+        return searchList.filter(item => item.salary > 1000);
+      default:
+        return searchList;
+    }
   }
 
-  changeFilter = ({target}) => {
+  changeSearch = ({target}) => {
     this.setState({
       search: target.value,
     });
   }
 
+  changeFilter = (mode) => {
+    this.setState({
+      filter: mode,
+    });
+  }
+
   render() {
-    const {data, search} = this.state;
+    const {data, search, filter} = this.state;
 
     return (
       <div className="app">
@@ -84,8 +101,8 @@ class App extends Component {
         />
 
         <div className="search-panel">
-          <SearchPanel search={search} onChangeFilter={this.changeFilter}/>
-          <AppFilter/>
+          <SearchPanel search={search} onChangeFilter={this.changeSearch}/>
+          <AppFilter mode={filter} onChangeFilter={this.changeFilter}/>
         </div>
 
         <EmployeesList
